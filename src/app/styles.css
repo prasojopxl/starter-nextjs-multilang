@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
+body {
+    font-family: 'Inter', sans-serif;
+    @apply text-lg font-normal;
+}
+
+h1, h2, h3,h4,h5,h6, strong {
+    @apply font-semibold
+}
+
+.wrapper {
+    @apply max-w-[1236px] px-[10px] py-0 mx-auto
+}
