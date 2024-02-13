@@ -9,9 +9,7 @@ type Props = {
 export default function PathnamesPage({ params: { locale } }: Props) {
     // Enable static rendering
     unstable_setRequestLocale(locale);
-
     const t = useTranslations('PathnamesPage');
-
     return (
         <PageLayout title={t('title')}>
             <div className="max-w-[490px]">

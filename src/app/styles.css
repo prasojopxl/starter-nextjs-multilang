@@ -6,7 +6,7 @@
 
 body {
     font-family: 'Inter', sans-serif;
-    @apply text-lg font-normal;
+    @apply text-[16px] font-normal;
 }
 
 h1, h2, h3,h4,h5,h6, strong {
@@ -20,6 +20,10 @@ h1, h2, h3,h4,h5,h6, strong {
     box-shadow:         0px 0px 5px 1px rgba(171,164,164,0.20);
     -webkit-box-shadow: 0px 0px 5px 1px rgba(171,164,164,0.20);
     -moz-box-shadow:    0px 0px 5px 1px rgba(171,164,164,0.20);
+}
+
+.btn {
+    @apply bg-c-purple text-neutral-50 hover:bg-c-purple2 py-[10px] px-[16px] rounded-lg 
 }
 
 img {

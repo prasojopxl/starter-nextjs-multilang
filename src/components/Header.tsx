@@ -7,7 +7,7 @@ export default function Header() {
     const t = useTranslations('Navigation');
 
     return (
-        <div className="relative py-4">
+        <div className="relative py-6">
             <nav className="wrapper">
                 <div className="flex justify-between align-middle ">
                     <div className="flex align-middle gap-7">
@@ -20,7 +20,11 @@ export default function Header() {
                             <li><Link href="/blog">Blog</Link></li>
                         </ul>
                     </div>
-                    <LocaleSwitcherSelect />
+                    <div className="flex items-center gap-9">
+                        <LocaleSwitcherSelect />
+                        <Link href="/">Log in</Link>
+                        <Link href="/" className="btn">Try it now</Link>
+                    </div>
                 </div>
             </nav>
         </div>
