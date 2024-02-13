@@ -2,23 +2,23 @@ import createMiddleware from 'next-intl/middleware';
 import { pathnames, locales, localePrefix } from './config';
 
 export default createMiddleware({
-  defaultLocale: 'de',
-  locales,
-  pathnames,
-  localePrefix
+    defaultLocale: 'de',
+    locales,
+    pathnames,
+    localePrefix
 });
 
 export const config = {
-  matcher: [
-    // Enable a redirect to a matching locale at the root
-    '/',
+    matcher: [
+        // Enable a redirect to a matching locale at the root
+        '/',
 
-    // Set a cookie to remember the previous locale for
-    // all requests that have a locale prefix
-    '/(de|en)/:path*',
+        // Set a cookie to remember the previous locale for
+        // all requests that have a locale prefix
+        '/(de|en)/:path*',
 
-    // Enable redirects that add missing locales
-    // (e.g. `/pathnames` -> `/en/pathnames`)
-    '/((?!_next|_vercel|.*\\..*).*)'
-  ]
+        // Enable redirects that add missing locales
+        // (e.g. `/pathnames` -> `/en/pathnames`)
+        '/((?!_next|_vercel|.*\\..*).*)'
+    ]
 };
