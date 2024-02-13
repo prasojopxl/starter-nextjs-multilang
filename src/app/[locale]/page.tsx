@@ -14,7 +14,7 @@ export default function IndexPage({ params: { locale } }: Props) {
 
     return (
         <PageLayout title={t('title')}>
-            <div>Hello Home Page</div>
+            <div>{t('description')}</div>
         </PageLayout>
     );
 }

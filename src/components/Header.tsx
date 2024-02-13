@@ -1,5 +1,5 @@
 import { useTranslations } from 'next-intl';
-import LocaleSwitcher from './LocaleSwitcher';
+import LocaleSwitcherSelect from './LocaleSwitcherSelect';
 import Link from "next/link";
 import { BsChevronDown } from "react-icons/bs";
 
@@ -20,7 +20,7 @@ export default function Header() {
                             <li><Link href="/blog">Blog</Link></li>
                         </ul>
                     </div>
-                    <LocaleSwitcher />
+                    <LocaleSwitcherSelect />
                 </div>
             </nav>
         </div>
