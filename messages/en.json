@@ -1,6 +1,6 @@
 {
 	"IndexPage": {
-		"title": "Comdaily",
+		"title": "APP EN",
 		"description": "This is a basic example of description."
 	},
 	"PathnamesPage": {
@@ -16,11 +16,7 @@
 		"description": "Please double-check the browser address bar or use the navigation to go to a known page."
 	},
 	"LocaleLayout": {
-		"title": "Comdaily"
-	},
-	"LocaleSwitcher": {
-		"label": "Change language",
-		"locale": "{locale, select, de {🇩🇪 Deutsch} en {🇺🇸 English} other {Unknown}}"
+		"title": "App"
 	},
 	"Navigation": {
 		"home": "Home",
@@ -39,5 +35,5 @@
 				"href": "https://github.com/amannn/next-intl/tree/main/examples/example-app-router"
 			}
 		}
-	}
+	}	
   }

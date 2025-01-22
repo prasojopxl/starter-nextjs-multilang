@@ -6,7 +6,6 @@
 
 body {
     font-family: 'Inter', sans-serif;
-    @apply text-[16px] font-normal;
 }
 
 h1, h2, h3,h4,h5,h6, strong {
@@ -23,7 +22,6 @@ h1, h2, h3,h4,h5,h6, strong {
 }
 
 .btn {
-    @apply bg-c-purple text-neutral-50 hover:bg-c-purple2 py-[10px] px-[16px] rounded-lg 
 }
 
 img {
